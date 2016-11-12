@@ -1,0 +1,26 @@
+{
+  "name": "angular-jquery-datepicker",
+  "main": "angular-jquery-datepicker.js",
+  "homepage": "https://github.com/harshal-limaye/angular-jquery-datepicker",
+  "authors": [
+    "Harshal Limaye <harshal.limaye.in@gmail.com>"
+  ],
+  "description": "A simple directive to use jQuery UI datepicker within your AngularJS applications",
+  "keywords": [
+    "angularjs",
+    "jquery-ui",
+    "datepicker"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "jquery-ui": "^1.12.1"
+  }
+}
