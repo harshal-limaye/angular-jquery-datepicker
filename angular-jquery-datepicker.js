@@ -1,8 +1,8 @@
 (function() {
 	'use strict';
-	var jqNgDatePicker = angular.module('jqNgDatePicker',[])
+	var app = angular.module('angular-jquery-datepicker',[])
 
-	jqNgDatePicker.directive('jqngdatepicker', function(){
+	app.directive('ngjqdatepicker', function(){
 		return {
 			restrict: 'A',
 			require: 'ngModel',
